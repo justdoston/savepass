@@ -1,7 +1,10 @@
 import os
+import pyfiglet
 import sys
 from pathlib import Path
 from cryptography.fernet import Fernet
+w = pyfiglet.figlet_format( " SAVEPASS " )
+print(w)
 print("Made by Abdullayev Doston. Instagram: @doston_0410 | Github: @justdoston\n")
 
 def check_root():
